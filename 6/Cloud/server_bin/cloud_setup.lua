@@ -1,0 +1,6 @@
+shell.run("cp /disk/Cloud /Cloud")
+shell.run("mkdir /Cloud/" .. os.getComputerLabel())
+print("Cloud set up")
+print()
+print("Remember to add to PC's startup:")
+print('    shell.run("Cloud/bin/startup.lua")')

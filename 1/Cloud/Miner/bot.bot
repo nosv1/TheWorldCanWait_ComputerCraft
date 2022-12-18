@@ -1,0 +1,63 @@
+{
+  inventory = {
+    {
+      name = "minecraft:cobblestone",
+      count = 57,
+    },
+    {
+      name = "minecraft:coal",
+      count = 1,
+    },
+    {
+      name = "create:crushed_iron_ore",
+      count = 8,
+    },
+  },
+  fuel = 19985,
+  current_branch_distance = 96,
+  current_branch_vector = {
+    y = 0,
+    x = 0,
+    z = 0,
+  },
+  velocity = {
+    y = -1,
+    x = 0,
+    z = 0,
+  },
+  blocks_avoided = {},
+  current_branch_start = {
+    y = 48,
+    x = 519,
+    z = -488,
+  },
+  current_branch_length = 0,
+  vector = {
+    y = 0,
+    x = 0,
+    z = 0,
+  },
+  position = {
+    y = 49,
+    x = 519,
+    z = -488,
+  },
+  status = "Mining vein of `iron_ore`",
+  home = {
+    y = 48,
+    x = 519,
+    z = -488,
+  },
+  storage_location = {
+    y = 48,
+    x = 519,
+    z = -488,
+  },
+  mission = {
+    branch_turn_direction = "left",
+    branches_dug = 0,
+    status = "Running",
+    branch_distance = 96,
+    branch_cycles_to_dig = 1,
+  },
+}

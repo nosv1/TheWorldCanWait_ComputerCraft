@@ -1,0 +1,30 @@
+
+branch_vector:
+    y: 0
+    x: 0
+    z: 1
+fuel_level: 61
+branches_dug: 0
+branch_distance: 96
+vector:
+    y: 0
+    x: 0
+    z: 1
+branch_cycles_to_dig: 1
+home:
+    y: 0
+    x: 0
+    z: 0
+branch_turn_direction: left
+name: #1 Miner
+position:
+    y: 0
+    x: 0
+    z: 0
+status: Inspecting position
+ore:
+storage_location:
+    y: 0
+    x: 0
+    z: 0
+trip_distance: 0

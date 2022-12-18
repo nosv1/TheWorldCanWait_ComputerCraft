@@ -1,0 +1,5 @@
+13990 -- miner
+65532 -- cloud
+65533 -- repeat
+65534 -- gps
+65535 -- receive

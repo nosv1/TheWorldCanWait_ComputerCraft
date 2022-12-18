@@ -1,0 +1,59 @@
+{
+  inventory = {
+    {
+      name = "minecraft:cobblestone",
+      count = 48,
+    },
+    {
+      name = "minecraft:coal",
+      count = 1,
+    },
+  },
+  fuel = 6616,
+  current_branch_distance = 96,
+  current_branch_vector = {
+    y = 0,
+    x = 1,
+    z = 0,
+  },
+  velocity = {
+    y = 0,
+    x = 0,
+    z = 1,
+  },
+  blocks_avoided = {},
+  current_branch_start = {
+    y = 48,
+    x = 520,
+    z = -489,
+  },
+  current_branch_length = 1,
+  vector = {
+    y = 0,
+    x = 0,
+    z = 0,
+  },
+  position = {
+    y = 48,
+    x = 521,
+    z = -489,
+  },
+  status = "Mining vein of `coal_ore`",
+  home = {
+    y = 48,
+    x = 520,
+    z = -489,
+  },
+  storage_location = {
+    y = 48,
+    x = 520,
+    z = -489,
+  },
+  mission = {
+    branch_turn_direction = "left",
+    branches_dug = 0,
+    status = "Running",
+    branch_distance = 96,
+    branch_cycles_to_dig = 1,
+  },
+}

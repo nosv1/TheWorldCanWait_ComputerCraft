@@ -1,0 +1,94 @@
+{
+  inventory = {
+    {
+      name = "minecraft:cobblestone",
+      count = 1,
+    },
+    {
+      name = "minecraft:coal",
+      count = 1,
+    },
+    {
+      name = "create:crushed_gold_ore",
+      count = 5,
+    },
+    {
+      name = "minecraft:lapis_lazuli",
+      count = 43,
+    },
+    {
+      name = "forbidden_arcanus:rune",
+      count = 1,
+    },
+    {
+      name = "create:crushed_nickel_ore",
+      count = 8,
+    },
+    {
+      name = "thermal:apatite",
+      count = 64,
+    },
+    {
+      name = "thermal:apatite",
+      count = 5,
+    },
+    {
+      name = "buddycards:luminis_crystal",
+      count = 3,
+    },
+    {
+      name = "thermal:sapphire",
+      count = 3,
+    },
+    {
+      name = "minecraft:diamond",
+      count = 6,
+    },
+  },
+  fuel = 18557,
+  current_branch_distance = 96,
+  current_branch_vector = {
+    y = 0,
+    x = 1,
+    z = 0,
+  },
+  velocity = {
+    y = 1,
+    x = 0,
+    z = 0,
+  },
+  state = "digging_main_branch",
+  current_branch_length = 42,
+  vector = {
+    y = 0,
+    x = 0,
+    z = 0,
+  },
+  position = {
+    y = 12,
+    x = 446,
+    z = -453,
+  },
+  current_branch_start = {
+    y = 11,
+    x = 404,
+    z = -453,
+  },
+  home = {
+    y = 11,
+    x = 500,
+    z = -459,
+  },
+  storage_location = {
+    y = 11,
+    x = 500,
+    z = -459,
+  },
+  mission = {
+    branch_turn_direction = "left",
+    branches_dug = 3,
+    status = "Running",
+    branch_distance = 96,
+    branch_cycles_to_dig = 2,
+  },
+}

@@ -1,0 +1,58 @@
+branch_vector:
+    y: 0
+    x: 0
+    z: 1
+fuel_level: 33
+branch_distance: 96
+home:
+    y: 0
+    x: 0
+    z: 0
+branch_cycles_to_dig: 2
+branches_dug: 0
+branch_turn_direction: right
+name: #4 Miner
+position:
+    y: 0
+    x: 0
+    z: 0
+status: Being built
+vector:
+    y: 0
+    x: 0
+    z: 1
+storage_location:
+    y: 0
+    x: 0
+    z: 0
+trip_distance: 0
+
+branch_vector:
+    y: 0
+    x: 0
+    z: 1
+fuel_level: 66
+branch_distance: 96
+home:
+    y: 0
+    x: 0
+    z: 0
+branch_cycles_to_dig: 2
+branches_dug: 1
+branch_turn_direction: right
+name: #4 Miner
+position:
+    y: 0
+    x: 0
+    z: 96
+status: Inspecting position
+vector:
+    y: 0
+    x: 0
+    z: 1
+storage_location:
+    y: 0
+    x: 0
+    z: 0
+trip_distance: 288
+

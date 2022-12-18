@@ -1,0 +1,21 @@
+Belt:
+ 1/RPM * 24 = s/blk
+Deployer:
+ 1/RPM * 48 = s/updwn
+Fan:
+ 1/RPM * 15 = s/blk
+Mechanical Piston:
+  1/RPM * 24 = s/blk
+Mill:
+  1/32 * 204 = s/blk
+Pully:
+  1/RPM * 24 = s/blk
+Pump:
+  1/RPM * 96 = s/blk
+  * 2 if not from container
+Saw (Chop):
+  1/RPM * 96 = s/blk
+Saw (Cut):
+  1/RPM * 32 = s/blk_o
+
+  

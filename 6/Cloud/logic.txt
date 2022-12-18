@@ -1,0 +1,6 @@
+bg loop checking /Cloud/ for changes
+a change is when the file size is different
+than what is in metatable.json
+
+when file changes, broadcast the new file until
+the receiver receives it

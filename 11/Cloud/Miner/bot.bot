@@ -1,0 +1,59 @@
+{
+  inventory = {
+    {
+      name = "minecraft:cobblestone",
+      count = 20,
+    },
+    {
+      name = "minecraft:coal",
+      count = 1,
+    },
+  },
+  fuel = 7648,
+  current_branch_distance = 96,
+  current_branch_vector = {
+    y = 0,
+    x = 0,
+    z = 1,
+  },
+  velocity = {
+    y = 1,
+    x = 0,
+    z = 0,
+  },
+  blocks_avoided = {},
+  current_branch_start = {
+    y = 23,
+    x = 514,
+    z = -495,
+  },
+  current_branch_length = 7,
+  vector = {
+    y = 0,
+    x = 0,
+    z = 0,
+  },
+  position = {
+    y = 24,
+    x = 514,
+    z = -488,
+  },
+  status = "Digging branch",
+  home = {
+    y = 23,
+    x = 514,
+    z = -495,
+  },
+  storage_location = {
+    y = 23,
+    x = 514,
+    z = -495,
+  },
+  mission = {
+    branch_turn_direction = "left",
+    branches_dug = 0,
+    status = "Running",
+    branch_distance = 96,
+    branch_cycles_to_dig = 1,
+  },
+}
