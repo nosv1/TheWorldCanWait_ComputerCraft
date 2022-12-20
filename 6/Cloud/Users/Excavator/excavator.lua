@@ -142,10 +142,37 @@ function Bot:refuel()
     turtle.select(selected)
 end
 
+function Bot:go_around(name)
+    -- assuming desire is to go around one block in front of bot
+    turtle.digUp()
+    turtle.up()
+    self.position = self.position + vector.new(0, 1, 0)
+    for i = 1, 2 do
+        turtle.dig()
+        turtle.forward()
+        self.position = self.position + self.velocity
+    end
+    turtle.digDown()
+    turtle.down()
+    self.position = self.position + vector.new(0, -1, 0)
+end
+
 function Bot:dig()
-    turtle.dig()
-    turtle.forward()
-    self.position = self.position + self.velocity
+    while true do
+        local is_block_ahead, block_ahead = turtle.inspect()
+        if not is_block_ahead then
+            turtle.forward()
+            self.position = self.position + self.velocity
+            break
+        end
+
+        if not is_block_type(block_ahead.name, "avoid") then
+            turtle.dig()
+        else
+            self:go_around()
+            break
+        end
+    end
 
     is_block_above, block_above = turtle.inspectUp()
     if is_block_above and not is_block_type(block_above.name, "avoid") then
@@ -168,6 +195,13 @@ function Bot:dig_half()
     self.position = self.velocity:unm():mul(self.mission.radius + 1):round()
 
     while true do
+        if math.random(1, 32) == 1 then
+            turtle.select(3)
+            if turtle.getItemCount() > 1 then
+                turtle.placeDown()
+            end
+        end
+
         self:dig()
 
         local block_ahead_position = self.position + self.velocity
